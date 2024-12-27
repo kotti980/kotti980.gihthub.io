@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>こっち受験生メンタルコーチ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #0044cc;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #003399;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+        nav a:hover {
+            background: #001a66;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #0044cc;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            display: inline-block;
+            background: #0044cc;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #003399;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>こっち受験生メンタルコーチ</h1>
+        <p>受験生の心に寄り添い、最高の結果へ導きます。</p>
+    </header>
+    <nav>
+        <a href="#services">サービス</a>
+        <a href="#about">プロフィール</a>
+        <a href="#contact">お問い合わせ</a>
+    </nav>
+    <div class="container">
+        <section id="services" class="section">
+            <h2>サービス内容</h2>
+            <p>受験生向けに、以下のようなメンタルサポートを提供しています：</p>
+            <ul>
+                <li>個別カウンセリング</li>
+                <li>オンラインセミナー</li>
+                <li>受験に役立つ情報発信（ブログ・動画）</li>
+            </ul>
+            <a href="#contact" class="btn">詳しくはこちら</a>
+        </section>
+        <section id="about" class="section">
+            <h2>プロフィール</h2>
+            <p>こんにちは、「こっち受験生メンタルコーチ」です。<br>
+            私はこれまで全国模試で数学1位を獲得し、多くの受験生をサポートしてきました。<br>
+            学生の皆さんが自信を持って目標を達成できるよう、全力でサポートします！</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>お問い合わせ</h2>
+            <p>ご質問やカウンセリングのご依頼は以下からお問い合わせください。</p>
+            <a href="mailto:example@example.com" class="btn">メールでお問い合わせ</a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 こっち受験生メンタルコーチ. All rights reserved.</p>
+    </footer>
+</body>
+</html>
